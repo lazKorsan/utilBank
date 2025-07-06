@@ -6,7 +6,11 @@ import org.openqa.selenium.chrome.ChromeOptions;
 
 import java.time.Duration;
 
-public class BeforeEach_AfterEach {
+public class TestBase {
+    public class Driver {
+        public static WebDriver driver ;
+    }
+
     public static WebDriver createDriver() {
         ChromeOptions options = new ChromeOptions();
         options.addArguments("force-device-scale-factor=1.0");
@@ -17,6 +21,7 @@ public class BeforeEach_AfterEach {
         driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
         return driver;
     }
+
 
     public static void tearDown() {
         if (Driver.driver != null) {
