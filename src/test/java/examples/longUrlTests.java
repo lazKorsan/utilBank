@@ -152,10 +152,39 @@ public class longUrlTests {
     public void test25() {
         driver.get("https://www.snapdeal.com/products/women-apparel-trousers-denims-jeggings?sort=plrty#bcrumbLabelId:23");
     }
+
     @Test
-    public void test26(){
+    public void test26() {
         driver.get("https://demowebshop.tricentis.com/");
     }
+
+    @Test
+    public void test27() {
+        driver.get("https://www.collectapi.com/tr");
+    }
+
+    @Test
+    public void test28() {
+        driver.get("https://www.testotomasyonu.com/basicauth");
+    }
+
+    @Test
+    public void test29() {
+        driver.get("https://membername:sunflower@testotomasyonu.com/basicauth");
+        ReusableMethods.bekle(3);
+    }
+    @Test
+    public void test30() {
+        driver.get("https://demoqa.com/frames");
+        ReusableMethods.bekle(3);
+
+    }
+    @Test
+    public void test31() {
+        driver.get("https://the-internet.herokuapp.com/windows");
+        ReusableMethods.bekle(3);
 }
+}
+
 
 
