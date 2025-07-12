@@ -173,17 +173,50 @@ public class longUrlTests {
         driver.get("https://membername:sunflower@testotomasyonu.com/basicauth");
         ReusableMethods.bekle(3);
     }
+
     @Test
     public void test30() {
         driver.get("https://demoqa.com/frames");
         ReusableMethods.bekle(3);
 
     }
+
     @Test
     public void test31() {
         driver.get("https://the-internet.herokuapp.com/windows");
         ReusableMethods.bekle(3);
-}
+    }
+
+    @Test
+    public void test32() {
+        driver.get("https://webdriveruniversity.com/");
+
+    }
+
+    @Test
+    public void test33() {
+        driver.get("https://webdriveruniversity.com/actions");
+
+    }
+
+    @Test
+    public void test34() {
+        driver.get("https://www.wisequarter.com/");
+
+        // username  : " ahmeteldesyahoocom  "
+        // password :   "   Ahmet.2020   ""
+        ReusableMethods.bekle(300000);
+    }
+
+    @Test
+    public void test35() {
+        driver.get("https://testng.org/");
+    }
+
+    @Test
+    public void test36() {
+        driver.get("https://zigzag.kr/");
+    }
 }
 
 
